@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shakiba Kamali | Engineering Portfolio</title>
+<meta name="description" content="Engineering portfolio of Shakiba Kamali, Mechatronic Systems Engineering, Simon Fraser University.">
+<style>
+:root{--ink:#16202e;--mute:#5b6676;--line:#dfe4ea;--bg:#f6f7f9;--card:#fff;--acc:#1f3a5f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+.top{background:var(--acc);color:#fff;padding:44px 0 34px}
+.top h1{margin:0;font-size:2.3rem;letter-spacing:.01em}
+.top p{margin:6px 0 0;color:#d6dfeb}
+.top .links{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px}
+.top .links a{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.5);border-radius:6px;padding:6px 12px;font-size:.92rem}
+.top .links a:hover,.top .links a:focus{background:#fff;color:var(--acc)}
+nav{position:sticky;top:0;background:rgba(246,247,249,.96);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;gap:18px;overflow-x:auto;padding-top:10px;padding-bottom:10px;white-space:nowrap}
+nav a{color:var(--mute);text-decoration:none;font-size:.9rem}nav a:hover,nav a:focus{color:var(--acc)}
+main{padding:26px 0 10px}
+article{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:22px;margin:0 0 22px;scroll-margin-top:56px}
+article header{display:flex;gap:14px;align-items:flex-start}
+.num{font-weight:700;color:var(--acc);font-size:1.05rem;border:2px solid var(--acc);border-radius:6px;padding:2px 8px;margin-top:3px}
+h2{margin:0;font-size:1.3rem}.sub{font-weight:400;color:var(--mute)}
+.ctx{margin:2px 0 0;color:var(--mute);font-size:.82rem;text-transform:uppercase;letter-spacing:.08em}
+.figs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0}
+figure{margin:0}figure a{display:block;background:#eef1f5;border:1px solid var(--line);border-radius:6px;overflow:hidden;aspect-ratio:4/3}
+figure img{width:100%;height:100%;object-fit:contain;display:block}
+figcaption{font-size:.74rem;color:var(--mute);text-transform:uppercase;letter-spacing:.07em;margin-top:6px;text-align:center}
+dl{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:0}
+dt{font-size:.76rem;font-weight:700;color:var(--acc);text-transform:uppercase;letter-spacing:.09em;margin-bottom:3px}
+dd{margin:0;font-size:.95rem}
+.tags{list-style:none;padding:0;margin:16px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+.tags li{font-size:.78rem;border:1px solid var(--line);border-radius:999px;padding:3px 10px;color:var(--mute)}
+footer{color:var(--mute);font-size:.85rem;padding:8px 0 40px}
+footer a{color:var(--acc)}
+@media (max-width:700px){.figs,dl{grid-template-columns:1fr}.top h1{font-size:1.8rem}figure a{aspect-ratio:auto}}
+</style></head>
+<body>
+<div class="top"><div class="wrap">
+<h1>Shakiba Kamali</h1>
+<p>Engineering portfolio · Mechatronic Systems Engineering, Simon Fraser University</p>
+<p>Hardware Engineer, High Voltage Team · Team Phantom, SFU Formula SAE Electric</p>
+<div class="links"><a href="mailto:ssk45@sfu.ca">ssk45@sfu.ca</a><a href="https://www.linkedin.com/in/shakiba-kamali">LinkedIn</a></div>
+</div></div>
+<nav aria-label="Projects"><div class="wrap"><a href="#p01">Pre-Charge PCB</a><a href="#p02">DC-DC Power Board</a><a href="#p03">BMS Board</a><a href="#p04">HV Vehicle Wiring</a><a href="#p05">HiWonder Robot</a><a href="#p06">Robot CAD</a></div></nav>
+<main class="wrap">
+<article id="p01">
+<header><span class="num">01</span><div><h2>Pre-Charge PCB <span class="sub">Debugging &amp; Testing</span></h2><p class="ctx">Team Phantom · Formula SAE Electric</p></div></header>
+<div class="figs"><figure><a href="p00.jpg"><img src="p00.jpg" alt="Pre-Charge PCB: Board rework" loading="lazy"></a><figcaption>Board rework</figcaption></figure><figure><a href="p01.jpg"><img src="p01.jpg" alt="Pre-Charge PCB: Bench testing" loading="lazy"></a><figcaption>Bench testing</figcaption></figure><figure><a href="p02.jpg"><img src="p02.jpg" alt="Pre-Charge PCB: Comparator circuit" loading="lazy"></a><figcaption>Comparator circuit</figcaption></figure></div>
+<dl><div><dt>What</dt><dd>Investigated faults on an existing pre-charge control PCB.</dd></div><div><dt>How</dt><dd>Used DMM continuity and voltage checks to trace the supply path, dividers, comparator and optocoupler. Repaired faults and repopulated a replacement PCB.</dd></div><div><dt>Result</dt><dd>Rechecked switching in low-voltage functional tests and took part in controlled high-voltage verification with the team lead.</dd></div></dl>
+<ul class="tags"><li>Fault isolation</li><li>Soldering</li><li>Functional testing</li></ul>
+</article><article id="p02">
+<header><span class="num">02</span><div><h2>DC-DC Power Board <span class="sub">Design in Altium</span></h2><p class="ctx">Independent electrical design</p></div></header>
+<div class="figs"><figure><a href="p03.jpg"><img src="p03.jpg" alt="DC-DC Power Board: Circuit schematic" loading="lazy"></a><figcaption>Circuit schematic</figcaption></figure><figure><a href="p04.jpg"><img src="p04.jpg" alt="DC-DC Power Board: PCB routing" loading="lazy"></a><figcaption>PCB routing</figcaption></figure><figure><a href="p05.jpg"><img src="p05.jpg" alt="DC-DC Power Board: 3D PCB model" loading="lazy"></a><figcaption>3D PCB model</figcaption></figure></div>
+<dl><div><dt>What</dt><dd>Designed a 40 to 160 V DC input board to provide a regulated 15 V output through a DC-DC stage and linear regulator.</dd></div><div><dt>How</dt><dd>Selected filtering, fuses, capacitors and resistors from datasheets; used a 21.6 V intermediate rail and designed the PCB layout in Altium.</dd></div><div><dt>Result</dt><dd>Produced the schematic, PCB layout and 3D board model. Physical board validation is a future step.</dd></div></dl>
+<ul class="tags"><li>Power conversion</li><li>Altium</li><li>Datasheets</li><li>PCB layout</li></ul>
+</article><article id="p03">
+<header><span class="num">03</span><div><h2>BMS Board <span class="sub">Schematic Revision &amp; PCB Layout</span></h2><p class="ctx">Team Phantom · Work in progress</p></div></header>
+<div class="figs"><figure><a href="p06.jpg"><img src="p06.jpg" alt="BMS Board: BMS schematic" loading="lazy"></a><figcaption>BMS schematic</figcaption></figure><figure><a href="p07.jpg"><img src="p07.jpg" alt="BMS Board: MOSFET &amp; pull-up detail" loading="lazy"></a><figcaption>MOSFET &amp; pull-up detail</figcaption></figure><figure><a href="p08.jpg"><img src="p08.jpg" alt="BMS Board: New PCB layout" loading="lazy"></a><figcaption>New PCB layout</figcaption></figure></div>
+<dl><div><dt>What</dt><dd>Updating an existing battery management board to correct schematic issues and prepare a new PCB revision.</dd></div><div><dt>How</dt><dd>Checked datasheets and pinouts; corrected reversed MOSFETs, missing pull-up resistors and capacitors; rebuilding the Altium layout.</dd></div><div><dt>Result</dt><dd>Revised the schematic and progressed a smaller, newly routed board design. Final hardware testing is still pending.</dd></div></dl>
+<ul class="tags"><li>Schematic review</li><li>MOSFETs</li><li>Altium</li><li>Design rules</li></ul>
+</article><article id="p04">
+<header><span class="num">04</span><div><h2>HV Vehicle Wiring <span class="sub">Mapping &amp; Harnessing</span></h2><p class="ctx">Team Phantom · Electrical integration</p></div></header>
+<div class="figs"><figure><a href="p09.jpg"><img src="p09.jpg" alt="HV Vehicle Wiring: Wire / pin map" loading="lazy"></a><figcaption>Wire / pin map</figcaption></figure><figure><a href="p10.jpg"><img src="p10.jpg" alt="HV Vehicle Wiring: Board connections" loading="lazy"></a><figcaption>Board connections</figcaption></figure><figure><a href="p11.jpg"><img src="p11.jpg" alt="HV Vehicle Wiring: Hardware setup" loading="lazy"></a><figcaption>Hardware setup</figcaption></figure></div>
+<dl><div><dt>What</dt><dd>Supported electrical integration of board-to-board connections and vehicle wiring for the Formula SAE electric car.</dd></div><div><dt>How</dt><dd>Created wire and connector maps, traced pin connections, and helped route, crimp and assemble harnesses using the team layout.</dd></div><div><dt>Result</dt><dd>Delivered connection documentation and hands-on wiring contributions used during vehicle electrical integration.</dd></div></dl>
+<ul class="tags"><li>Pin mapping</li><li>Crimping</li><li>Harnessing</li><li>System integration</li></ul>
+</article><article id="p05">
+<header><span class="num">05</span><div><h2>HiWonder Robot <span class="sub">Navigation &amp; Object Recognition</span></h2><p class="ctx">Academic robotics project</p></div></header>
+<div class="figs"><figure><a href="p12.jpg"><img src="p12.jpg" alt="HiWonder Robot: Line following &amp; obstacle detection" loading="lazy"></a><figcaption>Line following &amp; obstacle detection</figcaption></figure><figure><a href="p13.jpg"><img src="p13.jpg" alt="HiWonder Robot: Image recognition" loading="lazy"></a><figcaption>Image recognition</figcaption></figure><figure><a href="p14.jpg"><img src="p14.jpg" alt="HiWonder Robot: Object pickup" loading="lazy"></a><figcaption>Object pickup</figcaption></figure></div>
+<dl><div><dt>What</dt><dd>Modified a HiWonder robot to follow a line, detect obstacles and place objects on a target selected using its camera.</dd></div><div><dt>How</dt><dd>Tested camera-based line following and ultrasonic obstacle sensing; implemented image recognition and arm control for target selection.</dd></div><div><dt>Result</dt><dd>Demonstrated line following, obstacle detection and camera-guided object placement during testing.</dd></div></dl>
+<ul class="tags"><li>Camera vision</li><li>Ultrasonic sensors</li><li>Robotic arm</li><li>Python</li></ul>
+</article><article id="p06">
+<header><span class="num">06</span><div><h2>Robot CAD <span class="sub">Reverse Engineering &amp; Gripper</span></h2><p class="ctx">Academic mechanical design project</p></div></header>
+<div class="figs"><figure><a href="p15.jpg"><img src="p15.jpg" alt="Robot CAD: Gripper concept" loading="lazy"></a><figcaption>Gripper concept</figcaption></figure><figure><a href="p16.jpg"><img src="p16.jpg" alt="Robot CAD: SolidWorks CAD" loading="lazy"></a><figcaption>SolidWorks CAD</figcaption></figure><figure><a href="p17.jpg"><img src="p17.jpg" alt="Robot CAD: Dimensioned drawing" loading="lazy"></a><figcaption>Dimensioned drawing</figcaption></figure></div>
+<dl><div><dt>What</dt><dd>Reverse engineered robot parts and developed a removable gripper attachment for a robotic arm.</dd></div><div><dt>How</dt><dd>Recreated editable SolidWorks models, contributed to a 60-part assembly, prepared GD&amp;T drawings and 3D-printed a gripper sleeve.</dd></div><div><dt>Result</dt><dd>Produced assembly models and engineering drawings, then tested the printed gripper attachment.</dd></div></dl>
+<ul class="tags"><li>SolidWorks</li><li>Reverse engineering</li><li>GD&amp;T</li><li>Prototyping</li></ul>
+</article>
+</main>
+<footer class="wrap">Shakiba Kamali · <a href="mailto:ssk45@sfu.ca">ssk45@sfu.ca</a> · <a href="https://www.linkedin.com/in/shakiba-kamali">linkedin.com/in/shakiba-kamali</a></footer>
+</body></html>
